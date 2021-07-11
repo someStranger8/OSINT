@@ -7,6 +7,6 @@ print("")
 to=input("[*] enter username: ")
 kw=input("[*] enter keyword: ")
 c = twint.Config()
-c.Username = to
-c.Search = kw
+c.Username(to)
+c.Search(kw)
 twint.run.Search(c)
